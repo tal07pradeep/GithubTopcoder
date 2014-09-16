@@ -1,0 +1,2 @@
+May 28, 2014 12:08:21 PM com.appirio.automation.Topcoder.TopcoderMain main
+SEVERE: Unhandled Exception in Main : null

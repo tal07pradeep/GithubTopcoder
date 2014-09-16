@@ -1,0 +1,20 @@
+[INFO]	16/08/2013 03:43:11.032	Starting testcase execution
+[INFO]	16/08/2013 03:43:11.038	Executing Command: openurl("http://test.salesforce.com")
+[INFO]	16/08/2013 03:43:19.551	Executing Command: login("rwashington@appirio.com.sk2","appirio1")
+[INFO]	16/08/2013 03:43:51.509	Login Successful
+[INFO]	16/08/2013 03:43:51.511	Executing Command: openTab("Diageo Direct Portal")
+[INFO]	16/08/2013 03:44:24.823	Tab with the name Diageo Direct Portal opened successfully
+[INFO]	16/08/2013 03:44:24.823	Executing Command: clickPortalLink("Monthly Execution Plan")
+[INFO]	16/08/2013 03:44:42.505	Monthly Execution Plan opened successfully
+[INFO]	16/08/2013 03:44:42.506	Executing Command: clickElementLink("Ciroc Summer Cabana","month1-sep5")
+[INFO]	16/08/2013 03:45:08.616	Link with text Ciroc Summer Cabana opened successfully
+[INFO]	16/08/2013 03:45:08.616	Executing Command: clickElementLink("Selling Materials","horizontal-slider-navigation-button")
+[INFO]	16/08/2013 03:45:28.728	Link with text Selling Materials opened successfully
+[INFO]	16/08/2013 03:45:28.728	Executing Command: clickOnMenuItems("CIROC Summer Aug F14 INP Off PES (1MB)","Add to Basket",true)
+[INFO]	16/08/2013 03:45:39.018	Clicked Add to Basket for file CIROC Summer Aug F14 INP Off PES (1MB)
+[INFO]	16/08/2013 03:45:39.019	Executing Command: verifyBasket("CIROC Summer Aug F14 INP Off PES (1MB)")
+[INFO]	16/08/2013 03:46:18.126	Doc Found: CIROC Summer Aug F14 INP Off PES (1MB)
+[INFO]	16/08/2013 03:46:19.718	Executing Command: gotoHome()
+[INFO]	16/08/2013 03:46:23.254	Back to home
+[INFO]	16/08/2013 03:46:33.254	Testcase execution completed
+[INFO]	16/08/2013 03:46:33.473	Total Time By Script : 3 mins 22 secs

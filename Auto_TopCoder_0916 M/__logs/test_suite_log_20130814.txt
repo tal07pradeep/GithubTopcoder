@@ -1,0 +1,31 @@
+[INFO]	14/08/2013 04:10:35.257	Starting testcase execution
+[INFO]	14/08/2013 04:10:35.263	Executing Command: openurl("http://test.salesforce.com")
+[INFO]	14/08/2013 04:10:43.922	Executing Command: login("rwashington@appirio.com.sk2","appirio1")
+[INFO]	14/08/2013 04:11:21.073	Login Successful
+[INFO]	14/08/2013 04:11:21.073	Executing Command: openTab("Diageo Direct Portal")
+[INFO]	14/08/2013 04:11:58.140	Tab with the name Diageo Direct Portal opened successfully
+[INFO]	14/08/2013 04:11:58.140	Executing Command: clickPortalLink("Monthly Execution Plan")
+[INFO]	14/08/2013 04:12:15.640	Monthly Execution Plan opened successfully
+[INFO]	14/08/2013 04:12:15.640	Executing Command: clickElementLink("Ciroc Summer Cabana","month1-sep5")
+[INFO]	14/08/2013 04:12:44.982	Link with text Ciroc Summer Cabana opened successfully
+[INFO]	14/08/2013 04:12:44.982	Executing Command: clickElementLink("Selling Materials","horizontal-slider-navigation-button")
+[INFO]	14/08/2013 04:13:05.087	Link with text Selling Materials opened successfully
+[INFO]	14/08/2013 04:13:05.087	Executing Command: clickOnMenuItems("CIROC Summer Aug F14 INP Off PES (1MB)","Share",true)
+[INFO]	14/08/2013 04:13:15.298	Clicked Share for file CIROC Summer Aug F14 INP Off PES (1MB)
+[INFO]	14/08/2013 04:13:15.298	Executing Command: shareDoc("munmun.mathur@metacube.com","testing-CIROC Summer Aug F14 INP Off PES (1MB)")
+[INFO]	14/08/2013 04:13:55.673	Share: CIROC Summer Aug F14 INP Off ...
+  Message sent. Thank You.
+
+CLOSE
+[INFO]	14/08/2013 04:14:05.760	Executing Command: clickOnMenuItems("CIROC Summer Aug F14 INP Off PES (1MB)","Download",true)
+[INFO]	14/08/2013 04:14:16.983	Clicked Download for file CIROC Summer Aug F14 INP Off PES (1MB)
+[INFO]	14/08/2013 04:14:16.984	Executing Command: verifyDownload("CIROC Summer Aug F14 INP Off  PES","C:\Users\atisha.sharma\Downloads")
+[INFO]	14/08/2013 04:15:23.625	Doc Found: CIROC Summer Aug F14 INP Off  PES in download folder
+[INFO]	14/08/2013 04:15:23.626	Executing Command: clickOnMenuItems("CIROC Summer Aug F14 INP Off PES (1MB)","Add to Basket",true)
+[INFO]	14/08/2013 04:15:33.912	Clicked Add to Basket for file CIROC Summer Aug F14 INP Off PES (1MB)
+[INFO]	14/08/2013 04:15:33.912	Executing Command: verifyBasket("CIROC Summer Aug F14 INP Off PES (1MB)")
+[INFO]	14/08/2013 04:16:10.709	Doc Found: CIROC Summer Aug F14 INP Off PES (1MB)
+[INFO]	14/08/2013 04:16:12.240	Executing Command: gotoHome()
+[INFO]	14/08/2013 04:16:16.036	Back to home
+[INFO]	14/08/2013 04:16:26.036	Testcase execution completed
+[INFO]	14/08/2013 04:17:06.804	Total Time By Script : 6 mins 31 secs

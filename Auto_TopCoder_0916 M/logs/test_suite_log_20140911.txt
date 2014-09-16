@@ -1,0 +1,2 @@
+Sep 11, 2014 12:11:18 PM com.appirio.automation.Topcoder.TopcoderMain main
+INFO: Total Time By Script : 300 secs

@@ -1,0 +1,4 @@
+Aug 20, 2014 6:00:21 PM com.appirio.automation.Topcoder.TopcoderMain main
+SEVERE: Unhandled Exception in Main : 1
+Aug 20, 2014 6:00:24 PM com.appirio.automation.Topcoder.TopcoderMain main
+INFO: Total Time By Script : 298 secs

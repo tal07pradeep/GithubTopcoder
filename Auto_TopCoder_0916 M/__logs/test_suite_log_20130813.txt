@@ -1,0 +1,30 @@
+[INFO]	13/08/2013 06:04:26.998	Starting testcase execution
+[INFO]	13/08/2013 06:04:27.003	*********openurl("http://test.salesforce.com")*********
+[INFO]	13/08/2013 06:04:36.782	*********login("rwashington@appirio.com.sk2","appirio1")*********
+[INFO]	13/08/2013 06:05:06.985	Login Successful
+[INFO]	13/08/2013 06:05:06.985	*********openTab("Diageo Direct Portal")*********
+[INFO]	13/08/2013 06:05:52.086	Tab with the name Diageo Direct Portal opened successfully
+[INFO]	13/08/2013 06:05:52.086	*********clickPortalLink("Monthly Execution Plan")*********
+[INFO]	13/08/2013 06:06:14.280	Monthly Execution Plan opened successfully
+[INFO]	13/08/2013 06:06:14.280	*********clickElementLink("Ciroc Summer Cabana","month1-sep5")*********
+[INFO]	13/08/2013 06:06:52.256	Link with text Ciroc Summer Cabana opened successfully
+[INFO]	13/08/2013 06:06:52.256	*********clickElementLink("Selling Materials","horizontal-slider-navigation-button")*********
+[INFO]	13/08/2013 06:07:12.372	Link with text Selling Materials opened successfully
+[INFO]	13/08/2013 06:07:12.372	*********clickOnMenuItems("CIROC Summer Aug F14 INP Off PES (1MB)","Share",true)*********
+[INFO]	13/08/2013 06:07:22.607	Clicked Share for file CIROC Summer Aug F14 INP Off PES (1MB)
+[INFO]	13/08/2013 06:07:22.608	*********shareDoc("munmun.mathur@metacube.com","testing-CIROC Summer Aug F14 INP Off PES (1MB)")*********
+[INFO]	13/08/2013 06:08:03.035	Share: CIROC Summer Aug F14 INP Off ...
+  Message sent. Thank You.
+
+CLOSE
+[INFO]	13/08/2013 06:08:13.125	*********clickOnMenuItems("CIROC Summer Aug F14 INP Off PES (1MB)","Download",true)*********
+[INFO]	13/08/2013 06:08:24.772	Clicked Download for file CIROC Summer Aug F14 INP Off PES (1MB)
+[INFO]	13/08/2013 06:08:24.772	*********verifyDownload("CIROC Summer Aug F14 INP Off  PES","C:\Users\atisha.sharma\Downloads")*********
+[INFO]	13/08/2013 06:10:40.081	*********clickOnMenuItems("CIROC Summer Aug F14 INP Off PES (1MB)","Add to Basket",true)*********
+[INFO]	13/08/2013 06:11:10.344	Clicked Add to Basket for file CIROC Summer Aug F14 INP Off PES (1MB)
+[INFO]	13/08/2013 06:11:10.345	*********verifyBasket("36","CIROC Summer Aug F14 INP Off PES (1MB)")*********
+[INFO]	13/08/2013 06:11:30.355	Number of documents in Basket: 41
+[INFO]	13/08/2013 06:11:51.634	Doc Found: CIROC Summer Aug F14 INP Off PES (1MB)
+[INFO]	13/08/2013 06:11:51.635	*********gotoHome()*********
+[INFO]	13/08/2013 06:11:58.289	Back to home
+[INFO]	13/08/2013 06:12:08.286	Testcase execution completed

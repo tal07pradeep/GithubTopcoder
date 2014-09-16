@@ -1,0 +1,32 @@
+13/08/2013 04:50:07.969 - [com.appirio.automation.TestcaseFlow.DiageoMethods.defineTestCaseFlow]	[INFO]	Starting testcase execution
+13/08/2013 04:50:07.974 - [com.appirio.automation.TestcaseFlow.DiageoMethods.defineTestCaseFlow]	[INFO]	*********openurl("http://test.salesforce.com")*********
+13/08/2013 04:50:16.761 - [com.appirio.automation.TestcaseFlow.DiageoMethods.defineTestCaseFlow]	[INFO]	*********login("rwashington@appirio.com.sk2","appirio1")*********
+13/08/2013 04:51:01.027 - [com.appirio.automation.TestcaseFlow.DiageoMethods.login]	[INFO]	Login Successful
+13/08/2013 04:51:01.027 - [com.appirio.automation.TestcaseFlow.DiageoMethods.defineTestCaseFlow]	[INFO]	*********openTab("Diageo Direct Portal")*********
+13/08/2013 04:51:36.236 - [com.appirio.automation.TestcaseFlow.DiageoMethods.openTab]	[INFO]	Tab with the name Diageo Direct Portal opened successfully
+13/08/2013 04:51:36.236 - [com.appirio.automation.TestcaseFlow.DiageoMethods.defineTestCaseFlow]	[INFO]	*********clickPortalLink("Monthly Execution Plan")*********
+13/08/2013 04:51:55.831 - [com.appirio.automation.TestcaseFlow.DiageoMethods.clickPortalLink]	[INFO]	Monthly Execution Plan opened successfully
+13/08/2013 04:51:55.831 - [com.appirio.automation.TestcaseFlow.DiageoMethods.defineTestCaseFlow]	[INFO]	*********clickElementLink("Ciroc Summer Cabana","month1-sep5")*********
+13/08/2013 04:52:27.533 - [com.appirio.automation.TestcaseFlow.DiageoMethods.clickElementLink]	[INFO]	Opening Ciroc Summer Cabana
+13/08/2013 04:52:27.533 - [com.appirio.automation.TestcaseFlow.DiageoMethods.defineTestCaseFlow]	[INFO]	*********clickElementLink("Selling Materials","horizontal-slider-navigation-button")*********
+13/08/2013 04:52:47.661 - [com.appirio.automation.TestcaseFlow.DiageoMethods.clickElementLink]	[INFO]	Opening Selling Materials
+13/08/2013 04:52:47.661 - [com.appirio.automation.TestcaseFlow.DiageoMethods.defineTestCaseFlow]	[INFO]	*********clickOnMenuItems("CIROC Summer Aug F14 INP Off PES (1MB)","Share",true)*********
+13/08/2013 04:52:57.875 - [com.appirio.automation.TestcaseFlow.DiageoMethods.clickOnMenuItems]	[INFO]	Clicked Share for file CIROC Summer Aug F14 INP Off PES (1MB)
+13/08/2013 04:52:57.876 - [com.appirio.automation.TestcaseFlow.DiageoMethods.defineTestCaseFlow]	[INFO]	*********shareDoc("munmun.mathur@metacube.com","testing-CIROC Summer Aug F14 INP Off PES (1MB)")*********
+13/08/2013 04:53:38.273 - [com.appirio.automation.TestcaseFlow.DiageoMethods.shareDoc]	[INFO]	Share: CIROC Summer Aug F14 INP Off ...
+  Message sent. Thank You.
+
+CLOSE
+13/08/2013 04:53:48.362 - [com.appirio.automation.TestcaseFlow.DiageoMethods.defineTestCaseFlow]	[INFO]	*********clickOnMenuItems("CIROC Summer Aug F14 INP Off PES (1MB)","Download",true)*********
+13/08/2013 04:53:59.687 - [com.appirio.automation.TestcaseFlow.DiageoMethods.clickOnMenuItems]	[INFO]	Clicked Download for file CIROC Summer Aug F14 INP Off PES (1MB)
+13/08/2013 04:53:59.688 - [com.appirio.automation.TestcaseFlow.DiageoMethods.defineTestCaseFlow]	[INFO]	*********verifyDownload("CIROC Summer Aug F14 INP Off  PES","C:\Users\atisha.sharma\Downloads")*********
+13/08/2013 04:54:58.960 - [com.appirio.automation.TestcaseFlow.DiageoMethods.verifyDownload]	[INFO]	Doc Found: CIROC Summer Aug F14 INP Off  PES in download folder(C:\Users\atisha.sharma\Downloads)
+13/08/2013 04:54:58.961 - [com.appirio.automation.TestcaseFlow.DiageoMethods.defineTestCaseFlow]	[INFO]	*********clickOnMenuItems("CIROC Summer Aug F14 INP Off PES (1MB)","Add to Basket",true)*********
+13/08/2013 04:55:09.197 - [com.appirio.automation.TestcaseFlow.DiageoMethods.clickOnMenuItems]	[INFO]	Clicked Add to Basket for file CIROC Summer Aug F14 INP Off PES (1MB)
+13/08/2013 04:55:09.197 - [com.appirio.automation.TestcaseFlow.DiageoMethods.defineTestCaseFlow]	[INFO]	*********verifyBasket("36","CIROC Summer Aug F14 INP Off PES (1MB)")*********
+13/08/2013 04:55:29.231 - [com.appirio.automation.TestcaseFlow.DiageoMethods.verifyBasket]	[INFO]	Number of documents in Basket: 41
+13/08/2013 04:55:48.918 - [com.appirio.automation.TestcaseFlow.DiageoMethods.verifyBasket]	[INFO]	Doc Found: CIROC Summer Aug F14 INP Off PES (1MB)
+13/08/2013 04:55:50.436 - [com.appirio.automation.TestcaseFlow.DiageoMethods.defineTestCaseFlow]	[INFO]	*********gotoHome()*********
+13/08/2013 04:55:55.158 - [com.appirio.automation.TestcaseFlow.DiageoMethods.gotoHome]	[INFO]	Back to home
+13/08/2013 04:56:05.159 - [com.appirio.automation.TestcaseFlow.DiageoMethods.defineTestCaseFlow]	[INFO]	Testcase execution completed
+13/08/2013 04:56:05.159 - [com.appirio.automation.Diageo.DiageoMain.main]	[INFO]	Total Time By Script : 357 secs

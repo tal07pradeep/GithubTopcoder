@@ -1,0 +1,7 @@
+Aug 11, 2014 6:01:09 PM com.appirio.automation.Topcoder.TopcoderMain main
+SEVERE: Unhandled Exception in Main : Error communicating with the remote browser. It may have died.
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:18:15'
+System info: host: 'munmunmathur-PC', ip: '192.168.1.47', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: RemoteWebDriver
+Aug 11, 2014 6:01:11 PM com.appirio.automation.Topcoder.TopcoderMain main
+INFO: Total Time By Script : 208 secs
